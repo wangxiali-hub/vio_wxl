@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION  3.0)
+project(sophus)
+include_directories("/usr/include/eigen3")
+include_directories("/usr/include/sophus")
+add_executable(sophus sophus.cpp)
